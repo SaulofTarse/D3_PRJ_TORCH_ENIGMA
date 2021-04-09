@@ -1,0 +1,116 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The_Enigma</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/typo.css">
+    <link rel="stylesheet" href="styles/tingle.css" media="all">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+<body class="main">
+  <div class="header">
+    <div id="header">
+        <img class="header" src="images/other/go_dark.svg" alt="">
+    </div>
+
+    <ul class="buttons">
+          <li id="buttons"><a href="index.html"><img id="button" src="images/button_home.svg" alt=""></li></a>
+          <li id="buttons"><a href="#" class="btn btn--primary btn-demo js-tingle-modal-1"><img id="button" src="images/icon_quest_light.svg" alt=""></a></li>
+    </ul>
+    <img id="header"class="header" src="images/time_dark.svg" alt="">
+  </div>
+
+  <article class="main_content">
+    <section class="etats">
+      <ul class="gauche">
+          <li id="gauche"><img id="monks" src="images/moine_j1.gif" alt=""></li>
+          <li id="gauche"><img id="monks" src="images/moine_j2.gif" alt=""></li>
+          <li id="gauche"><img id="monks" src="images/moine_j5.gif" alt=""></li>
+          <li id="gauche"><img id="monks" src="images/moine_j8.gif" alt=""></li>
+
+          <li id="gauche"><img id="monks" src="images/torche.gif" alt=""></li>
+      </ul>
+
+      <ul class="droite">
+          <li id="droite"><img id="monk" src="images/j1_n.svg" alt=""></li>
+          <li id="droite"><img id="monk" src="images/j2_n.svg" alt=""></li>
+          <li id="droite"><img id="monks" src="images/moine_j5.gif" alt=""></li>
+          <li id="droite"><img id="monk" src="images/j8_n.svg" alt=""></li>
+
+          <li id="droite"><img id="torch" src="images/torche_n.svg" alt=""></li>
+        </ul>
+    </section>
+    <div class="torch">
+      <ul  class="torch_timer">
+        <li id="timer">15</li>
+        <li id="timer">-</li>
+        <li id="timer">-</li>
+        <li id="timer">-</li>
+        <li id="timer">-</li>
+        <li id="timer">10</li>
+        <li id="timer">-</li>
+        <li id="timer">-</li>
+        <li id="timer">-</li>
+        <li id="timer">-</li>
+        <li id="timer">5</li>
+        <li id="timer">-</li>
+        <li id="timer">-</li>
+        <li id="timer">-</li>
+        <li id="timer">1</li>
+      </ul>
+      <ul  class="torch_timer">
+        <li id="torch_timer"><img src="images/flame_d.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame_d.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame_d.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame_d.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame_d.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame_d.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame_d.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame.svg" alt=""></li>
+        <li id="torch_timer"><img src="images/flame.svg" alt=""></li>
+      </ul>
+  </div>
+  </article>
+  <aside>
+    <ul class="action">
+          <li id="actions"><img id="action" src="images/other/chose.svg" alt="">
+
+          <li id="action"><a href="etat04_02_01.html"><img id="action" src="images/j1_j5.svg" alt=""></a></li>
+
+          <li id="action"><a href="etat04_02_02.html"><img id="action" src="images/j1_j8.svg" alt=""></a></li>
+
+          <li id="action"><a href="etat04_02_03.html"><img id="action" src="images/j5_j8.svg" alt=""></a></li>
+
+
+    </ul>
+
+  </aside>
+<div class="tingle-demo tingle-demo-tiny">
+  <img id="push" src="images/other/enigma_dark.svg" alt="">
+  <img id="text" src="images/other/text_enigm_light.svg" alt="">
+<script src="js/tingle.js"></script>
+
+
+<!-- Ici l'initialisation de la modale. -->
+<script type="text/javascript">
+
+/**
+* Modal Tiny no footer
+*/
+
+var fenetreModale = new tingle.modal();
+var btn = document.querySelector('.js-tingle-modal-1');
+btn.addEventListener('click', function(){
+    fenetreModale.open();
+});
+fenetreModale.setContent(document.querySelector('.tingle-demo-tiny').innerHTML);
+</script>
+</div>
+  </body>
+</html>

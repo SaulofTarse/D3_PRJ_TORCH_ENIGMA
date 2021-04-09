@@ -1,0 +1,124 @@
+body.main{
+  background: url('images/bg_start.svg') no-repeat center/ cover;
+}
+body.info{
+  background-color:#8873C9;
+}
+
+
+:root {
+  --inner: #7D57F2;
+  --border: #2F1551;
+  --accent: #B1A7EA;
+}
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+
+.header{
+  margin-left:3vw;
+  margin-right:3vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.start{
+  margin-top:10vh;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.about{
+  margin-top:2vh;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+div.cancel{
+  width: 45vw;
+  height:30vh;
+  margin: 5vh;
+  background: var(--accent);
+  box-shadow:
+      0   -6px 0  -2px var(--accent),
+      0    6px 0  -2px var(--accent),
+      0  -12px 0  -4px var(--accent),
+      0   12px 0  -4px var(--accent),
+      0  -18px 0  -8px var(--accent),
+      0   18px 0  -8px var(--accent),
+      0  -24px 0 -12px var(--accent),
+      0   24px 0 -12px var(--accent);
+}
+
+img#button{
+  width:10vw;
+  margin:5vh;
+}
+img#button_about{
+  width:5vw;
+  margin:5vh;
+}
+
+img#button_cancel{
+  width:20vw;
+  margin: 5vh;
+}
+img#titles{
+  width:15vw;
+}
+img#title{
+  height:30vh;
+}
+img#push{
+  height:20vh;
+  margin-bottom: 3vh;
+}
+img#about{
+  width:40vw;
+  background: var(--accent);
+  box-shadow:
+      0   -6px 0  -2px var(--accent),
+      0    6px 0  -2px var(--accent),
+      0  -12px 0  -4px var(--accent),
+      0   12px 0  -4px var(--accent),
+      0  -18px 0  -8px var(--accent),
+      0   18px 0  -8px var(--accent),
+      0  -24px 0 -12px var(--accent),
+      0   24px 0 -12px var(--accent);
+}
+
+img#layout{
+  height:40vh;
+  margin-bottom: 3vh;
+}
+div.choose{
+  display: flex;
+  justify-content:space-around;
+}
+img#choose{
+    width:10vw;
+    margin: 3vh;
+}
+h2{
+margin: 3vh;
+margin-top: 4vh;
+margin-bottom: 6vh;
+}
+img#home{
+  height: 5vh;
+  padding: 5vh;
+}
