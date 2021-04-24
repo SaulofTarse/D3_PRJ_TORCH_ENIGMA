@@ -88,7 +88,6 @@ img#push{
   margin-bottom: 3vh;
 }
 img#about{
-  width:40vw;
   background: var(--accent);
   box-shadow:
       0   -6px 0  -2px var(--accent),
@@ -102,7 +101,7 @@ img#about{
 }
 
 img#layout{
-  height:20vh;
+  height:40vh;
   margin-bottom: 3vh;
 }
 div.choose{
