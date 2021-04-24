@@ -30,12 +30,9 @@ video#bgvid {
 
 div.start{
   margin-top:10vh;
-  padding-left: 30vw;
-  padding-right: 30vw;
   height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 div.about{
@@ -46,7 +43,6 @@ div.about{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 div.cancel{
   width: 45vw;
@@ -63,7 +59,18 @@ div.cancel{
       0  -24px 0 -12px var(--accent),
       0   24px 0 -12px var(--accent);
 }
+div.insta_link{
+  margin-left:3vw;
+  height: 10vh;
+  display: flex;
+  align-items: center; 
+  justify-content:center;
+}
+img#insta{
 
+  width:4vw;
+  padding-left: 3vh;
+}
 img#button{
   width:10vw;
   margin:5vh;
@@ -88,6 +95,7 @@ img#push{
   margin-bottom: 3vh;
 }
 img#about{
+  width:40vw;
   background: var(--accent);
   box-shadow:
       0   -6px 0  -2px var(--accent),
@@ -101,7 +109,7 @@ img#about{
 }
 
 img#layout{
-  height:40vh;
+  height: 50vh;
   margin-bottom: 3vh;
 }
 div.choose{
@@ -110,7 +118,7 @@ div.choose{
 }
 img#choose{
     width:10vw;
-    margin: 3vh;
+    margin:3vh;
 }
 h2{
 margin: 3vh;
