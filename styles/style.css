@@ -63,7 +63,7 @@ div.insta_link{
   margin-left:3vw;
   height: 10vh;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content:center;
 }
 img#insta{
@@ -128,4 +128,7 @@ margin-bottom: 6vh;
 img#home{
   height: 5vh;
   padding: 5vh;
+}
+img#title_over{
+  height: 20vh;
 }
