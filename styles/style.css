@@ -35,6 +35,10 @@ div.start{
   align-items: center;
   flex-direction: column;
 }
+video.end{
+  margin-top:30vh;
+}
+
 div.about{
   margin-top:2vh;
   padding-left: 30vw;
