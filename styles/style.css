@@ -29,6 +29,13 @@ video#bgvid {
 }
 
 div.start{
+  margin-top:10vh;
+  max-width : 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+div.end{
   margin-top:30vh;
   max-width : 100%;
   display: flex;
