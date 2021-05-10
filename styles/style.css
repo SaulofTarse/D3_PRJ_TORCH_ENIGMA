@@ -1,11 +1,13 @@
 body.main{
-  background: url('images/bg_start.svg') no-repeat center/ cover;
+  background: url('images/bg_start.svg')no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 body.info{
   background-color:#8873C9;
+  background-size: cover;
+  min-height: 100vh;
 }
-
-
 :root {
   --inner: #7D57F2;
   --border: #2F1551;
